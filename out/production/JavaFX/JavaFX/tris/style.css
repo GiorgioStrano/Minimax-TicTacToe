@@ -1,0 +1,38 @@
+.login-button{
+    -fx-background-color: black;
+    -fx-text-fill:black;
+    -fx-background-radius: 0px;
+}
+.base{
+    -fx-background-color: transparent;
+}
+.button{
+    -fx-background-color: lightcoral;
+    -fx-text-fill:#3D4956;
+    -fx-background-radius: 10px;
+}
+
+.background{
+    -fx-background-color: #3D4956;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    /*-fx-border-width: [0px,0px,10px,0px];*/
+    -fx-border-color:
+            transparent
+            transparent
+            white
+            transparent;
+
+    -fx-text-fill: white;
+
+;
+}
+
+/*.text-field{*/
+/*    -fx-border-radius: 0px;*/
+/*    -fx-background-radius: 0px;*/
+/*    -fx-border-style: none;*/
+
+/*}*/

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#reset" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFX.tris.BoardController">
+   <children>
+      <Line endY="400.0" layoutX="133.0" />
+      <Line endY="400.0" layoutX="266.0" />
+      <Line endX="400.0" layoutY="133.0" />
+      <Line endX="400.0" layoutY="266.0" />
+      <AnchorPane fx:id="container" onKeyPressed="#reset" prefHeight="401.0" prefWidth="401.0">
+         <children>
+            <Label fx:id="no" alignment="CENTER" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="se" alignment="CENTER" layoutX="267.0" layoutY="267.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="s" alignment="CENTER" layoutX="134.0" layoutY="267.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="so" alignment="CENTER" layoutY="267.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="o" alignment="CENTER" layoutY="134.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="c" alignment="CENTER" layoutX="134.0" layoutY="134.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="e" alignment="CENTER" layoutX="267.0" layoutY="134.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="ne" alignment="CENTER" layoutX="267.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+            <Label fx:id="n" alignment="CENTER" layoutX="134.0" minHeight="133.0" minWidth="133.0" onMouseClicked="#click">
+               <font>
+                  <Font name="Heiti TC Light" size="50.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
